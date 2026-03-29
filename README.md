@@ -1,5 +1,5 @@
 ## Energy Consumption Analysis and Prediction
-This project analyzes real-world electricity demand data from the American Electric Power (AEP) region to identify patterns in energy usage and build a predictive model. The analysis explores how consumption varies by time of day, day of week, and season.
+This project analyzes real-world electricity demand data from the American Electric Power (AEP) region to identify patterns in energy usage and build a predictive model. It explores how demand varies by hour, day, and season, and demonstrates how these patterns can be used for load forecasting.
 
 ## Key Features
 - Time-series analysis of hourly energy consumption  
@@ -9,7 +9,7 @@ This project analyzes real-world electricity demand data from the American Elect
 - Feature importance analysis to identify key drivers of demand  
 
 ## Key Insights
-- Energy demand peaks in the afternoon and early evening  
+- Energy demand peaks in the afternoon and evening  
 - Weekday consumption is higher than weekends  
 - Summer demand shows strong afternoon peaks due to cooling  
 - Winter demand peaks in morning and evening due to heating  
@@ -30,3 +30,4 @@ This project analyzes real-world electricity demand data from the American Elect
 
 3. Open the notebook:
    analysis.ipynb
+
