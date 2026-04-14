@@ -32,7 +32,7 @@ This project analyzes real-world electricity demand data from the American Elect
    pip install -r requirements.txt
 
 3. Open the notebook:
-   analysis.ipynb
+   01_demand_analysis.ipynb
 
 # Optimization Section
 
@@ -80,4 +80,4 @@ We then perform scenario analysis across different battery sizes to evaluate the
    pip install -r requirements.txt
 
 3. Open the notebook:
-   optimization.ipynb
+   02_storage_optimization.ipynb
