@@ -59,9 +59,9 @@ We then perform scenario analysis across different battery sizes to evaluate the
 - Battery storage reduces total operating cost  
 - Storage shifts demand away from high-price periods  
 - Peak demand is reduced through load shifting  
-- System variability decreases, improving grid stability  
-- Results depend strongly on storage capacity and ramp constraints  
-- Increasing storage shows diminishing returns beyond moderate capacity  
+- Smaller batteries significantly reduce variability, but larger capacities can increase it due to more aggressive shifting  
+- Results depend strongly on storage capacity and operational constraints  
+- Increasing storage shows clear diminishing returns beyond moderate capacity  
 
 ## Technologies Used
 - Python  
@@ -70,7 +70,7 @@ We then perform scenario analysis across different battery sizes to evaluate the
 - matplotlib  
 - seaborn  
 - cvxpy  
-- OSQP solver  
+- SCS solver  
 
 ## How to Run
 1. Clone the repository:
